@@ -44,10 +44,10 @@ class Form extends Component {
                     value={job} 
                     onChange={this.handleChange}/>
                     <input 
-    type="button" 
-    value="Submit" 
-    onClick={this.submitForm} />
-            </form>
+                    type="button" 
+                    value="Submit" 
+                    onClick={this.submitForm} />
+               </form>
         );
         
     }
